@@ -37,10 +37,10 @@ namespace MVC01.Controllers
         }
 
         [Authorize]
-        public ActionResult Index()
+		[HeaderFooterFilter]
+		public ActionResult Index()
         {
             EmployeeListViewModel employeeListViewModel = new EmployeeListViewModel();
-            employeeListViewModel.UserName = User.Identity.Name;
 
             EmployeeBusinessLayer empBal = new EmployeeBusinessLayer();
             List<Employee> employees = empBal.GetEmployees();
@@ -65,21 +65,20 @@ namespace MVC01.Controllers
             employeeListViewModel.Employees = empViewModels;
             //employeeListViewModel.UserName = "Admin";-->Remove this line -->Change1
 
-            employeeListViewModel.FooterData = new FooterViewModel();
-            employeeListViewModel.FooterData.CompanyName = "StepByStepSchools";//Can be set to dynamic value
-            employeeListViewModel.FooterData.Year = DateTime.Now.Year.ToString();
-
             return View("Index", employeeListViewModel);//-->Change View Name -->Change 2
         }
 
         [AdminFilter]
-        public ActionResult AddNew()
+		[HeaderFooterFilter]
+		public ActionResult AddNew()
         {
-            return View("CreateEmployee", new CreateEmployeeViewModel());
-        }
+			CreateEmployeeViewModel employeeListViewModel = new CreateEmployeeViewModel();
+			return View("CreateEmployee", employeeListViewModel);
+		}
 
         [AdminFilter]
-        public ActionResult SaveEmployee(Employee e, string BtnSubmit)
+		[HeaderFooterFilter]
+		public ActionResult SaveEmployee(Employee e, string BtnSubmit)
         {
             switch (BtnSubmit)
             {
@@ -103,7 +102,7 @@ namespace MVC01.Controllers
                         {
                             vm.Salary = ModelState["Salary"].Value.AttemptedValue;
                         }
-                        return View("CreateEmployee", vm); // Day 4 Change - Passing e here
+						return View("CreateEmployee", vm); // Day 4 Change - Passing e here
                     }
                 case "Cancel":
                     return RedirectToAction("Index");

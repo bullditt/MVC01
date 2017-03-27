@@ -1,25 +1,25 @@
 ﻿@using MVC01.ViewModels
 @model CreateEmployeeViewModel
 @{
-    Layout = null;
+	Layout = "~/Views/Shared/MyLayout.cshtml";
 }
 
-<!DOCTYPE html>
+@section TitleSection{
+	CreateEmployee
+}
 
-<html>
-<head>
-    <meta name="viewport" content="width=device-width" />
-    <title>CreateEmployee</title>
-    <script>
+@section HeaderSection{
+<script src="~/Scripts/Validations.js"></script>
+<script>
     function ResetForm() {
         document.getElementById('TxtFName').value = "";
         document.getElementById('TxtLName').value = "";
         document.getElementById('TxtSalary').value = "";
     }
-    </script>
-    <script src="~/Scripts/Validations.js"></script>
-</head>
-<body>
+</script>
+}
+
+@section ContentBody{
     <div> 
         <form action="/Employee/SaveEmployee" method="post">
             <table>
@@ -74,5 +74,4 @@
             </table>
         </form>
     </div>
-</body>
-</html>
+}

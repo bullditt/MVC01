@@ -21,3 +21,26 @@ G:\Samples\MVC Tutorial\MVC01\MVC01\bin\EntityFramework.SqlServer.dll
 G:\Samples\MVC Tutorial\MVC01\MVC01\bin\EntityFramework.xml
 G:\Samples\MVC Tutorial\MVC01\MVC01\bin\EntityFramework.SqlServer.xml
 G:\Samples\MVC Tutorial\MVC01\MVC01\obj\Debug\MVC01.csprojResolveAssemblyReference.cache
+G:\GitHubRepository\MVC01\MVC01\MVC01\bin\MVC01.dll.config
+G:\GitHubRepository\MVC01\MVC01\MVC01\bin\MVC01.dll
+G:\GitHubRepository\MVC01\MVC01\MVC01\bin\MVC01.pdb
+G:\GitHubRepository\MVC01\MVC01\MVC01\bin\EntityFramework.dll
+G:\GitHubRepository\MVC01\MVC01\MVC01\bin\EntityFramework.SqlServer.dll
+G:\GitHubRepository\MVC01\MVC01\MVC01\bin\Microsoft.Web.Infrastructure.dll
+G:\GitHubRepository\MVC01\MVC01\MVC01\bin\System.Web.Helpers.dll
+G:\GitHubRepository\MVC01\MVC01\MVC01\bin\System.Web.Mvc.dll
+G:\GitHubRepository\MVC01\MVC01\MVC01\bin\System.Web.Razor.dll
+G:\GitHubRepository\MVC01\MVC01\MVC01\bin\System.Web.WebPages.Deployment.dll
+G:\GitHubRepository\MVC01\MVC01\MVC01\bin\System.Web.WebPages.dll
+G:\GitHubRepository\MVC01\MVC01\MVC01\bin\System.Web.WebPages.Razor.dll
+G:\GitHubRepository\MVC01\MVC01\MVC01\bin\EntityFramework.xml
+G:\GitHubRepository\MVC01\MVC01\MVC01\bin\EntityFramework.SqlServer.xml
+G:\GitHubRepository\MVC01\MVC01\MVC01\bin\System.Web.Helpers.xml
+G:\GitHubRepository\MVC01\MVC01\MVC01\bin\System.Web.Mvc.xml
+G:\GitHubRepository\MVC01\MVC01\MVC01\bin\System.Web.Razor.xml
+G:\GitHubRepository\MVC01\MVC01\MVC01\bin\System.Web.WebPages.xml
+G:\GitHubRepository\MVC01\MVC01\MVC01\bin\System.Web.WebPages.Deployment.xml
+G:\GitHubRepository\MVC01\MVC01\MVC01\bin\System.Web.WebPages.Razor.xml
+G:\GitHubRepository\MVC01\MVC01\MVC01\obj\Debug\MVC01.csprojResolveAssemblyReference.cache
+G:\GitHubRepository\MVC01\MVC01\MVC01\obj\Debug\MVC01.dll
+G:\GitHubRepository\MVC01\MVC01\MVC01\obj\Debug\MVC01.pdb
